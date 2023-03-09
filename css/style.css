@@ -5151,8 +5151,11 @@ a.badge-dark:focus, a.badge-dark.focus {
   overflow: hidden;
   line-height: 0;
   font-size: 0.75rem;
-  background-color: #e9ecef;
+  background-color: #ffffff;
   border-radius: 0.25rem;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 2px #0BCEAF;
 }
 
 .progress-bar {
@@ -6385,7 +6388,7 @@ button.bg-success:focus {
 }
 
 .bg-info {
-  background-color: #17a2b8 !important;
+  background-color: #0BCEAF !important;
 }
 
 a.bg-info:hover, a.bg-info:focus,
@@ -6395,7 +6398,7 @@ button.bg-info:focus {
 }
 
 .bg-warning {
-  background-color: #ffc107 !important;
+  background-color: #0BCEAF !important;
 }
 
 a.bg-warning:hover, a.bg-warning:focus,
@@ -6405,7 +6408,7 @@ button.bg-warning:focus {
 }
 
 .bg-danger {
-  background-color: #dc3545 !important;
+  background-color: #0BCEAF !important;
 }
 
 a.bg-danger:hover, a.bg-danger:focus,
@@ -6425,7 +6428,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: #0BCEAF !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -7527,7 +7530,8 @@ button.bg-dark:focus {
 }
 
 .w-100 {
-  width: 100% !important;
+  width: 100% !important;border: 5px solid;
+    color: white;
 }
 
 .w-auto {
@@ -9925,6 +9929,13 @@ h6,
   justify-content: center;
   border-radius: 60px;
 }
+
+.service-icon img{
+      width: 40px;
+    vertical-align: middle;
+    border-style: none;
+}
+
 
 .portfolio-item .portfolio-btn {
   position: absolute;
